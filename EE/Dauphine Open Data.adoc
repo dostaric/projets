@@ -13,6 +13,20 @@ Ce projet sera éventuellement développé en collaboration avec la Direction de
 
 On repartira d’un https://github.com/oliviercailloux/Dauphine-Open-Data[projet] existant. Il faudra entre autres injecter l’entity manager (voir `JPAUtil`).
 
+== Itération 1
+
+**Course
+
+**Basics
+
+**Triple
+
+**VCal
+
+**VCard
+
+**BasicServlets
+
 == Fonctions demandées
 Course:: Objet Course pour représenter un cours de Dauphine. S’inspirer du modèle dans le projet existant et des informations contenues dans le Référentiel de l’Offre de Formation (ROF) de Dauphine au format CDM-fr (voir https://raw.githubusercontent.com/oliviercailloux/projets/master/Voeux/OF_MEA5STI.xml[exemple XML]), à simplifier éventuellement pour conserver l’information essentielle. Documenter vos choix. Permettre encodage d’un cours par une représentation textuelle. L’identifiant d’un cours doit être un String. (1)
 Basics:: Objets Person pour représenter un étudiant ou un enseignant (voir informations contenues dans l’ link:https://www.ent.dauphine.fr/Annuaire/index.php?param0=fiche&param1=ocailloux[annuaire] et dans ROF). Objet Planning pour représenter les liens horaires et liens entre cours et enseignant (tel enseignant a une séance de tel cours à telle heure). Voir informations contenues dans le planning en ligne de Dauphine (chercher Cailloux). Identifier une personne par son login Dauphine, un identifiant de 8 caractères. Documenter vos choix. (1)
